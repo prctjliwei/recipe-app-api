@@ -5,7 +5,7 @@ Django command to wait for the databae to be acailable
 from typing import Any
 import time
 from django.core.management.base import BaseCommand
-from pyscopg2 import OperationalError as Pyscopg2OpError
+from psycopg2 import OperationalError as Pyscopg2OpError
 from django.db.utils import OperationalError
 
 class Command(BaseCommand):
