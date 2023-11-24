@@ -1,2 +1,2 @@
 # recipe-app-api
-Django Receipt API 
+Django Receipt API
